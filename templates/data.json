@@ -1,0 +1,11 @@
+{
+    "greetings": ["Hi there!", "Hello!", "Hey! How can I help you today?"],
+    "responses": [
+      { "question": "What is your name?", "answer": "I'm a chatbot. You can call me Pop." },
+      { "question": "How are you?", "answer": "I'm just a computer program, so I don't have feelings, but thanks for asking!" },
+      { "question": "What can you do?", "answer": "I can answer questions, tell jokes, or just chat with you." },
+      { "question": "Can you tell me a joke?", "answer": "Why couldn't the bicycle stand up by itself? Because it was two-tired!" },
+      { "question": "How old are you?", "answer": "I don't have an age. I exist in the realm of code!" }
+    ]
+  }
+  

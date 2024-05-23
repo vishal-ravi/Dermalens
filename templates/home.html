@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+
+
+  <!--CSS Stylesheets-->
+  <link rel="stylesheet" href="/Model/css/w3.css">
+  <link rel="stylesheet" href="/Model/css/skin.css">
+
+  <!--Link to Font Awesome icons-->
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.2/css/all.css'
+    integrity='sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns' crossorigin='anonymous'>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="/templates/scripts.js" defer></script>
+  <!--Link to fonts from google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+
+  <link rel="shortcut icon" type="image/png" href="/model/assets/robotfavicon.png">
+
+
+
+  <!--====== Favicon Icon ======-->
+  <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/png" />
+
+  <title>Dermalens</title>
+
+  <!-- Icon -->
+  <link rel="stylesheet" href="/assets/css/lineicons.css" />
+  <!-- Tailwind css -->
+  <link rel="stylesheet" href="/assets/css/tailwindcss.css" />
+</head>
+
+<body>
+
+  
+
+  <!-- Header Area wrapper Starts -->
+  <header id="header-wrap" class="relative">
+    <!-- Navbar Start -->
+    <div class="navigation fixed top-0 left-0 w-full z-30 duration-300">
+      <div class="container px-4">
+        <nav class="
+              navbar
+              py-2
+              navbar-expand-lg
+              flex
+              justify-between
+              items-center
+              relative
+              duration-300
+            ">
+          <a class="navbar-brand" href="home.html">
+            <!-- <img src="assets/img/logo.svg" alt="Logo" /> -->
+          </a>
+          <button class="navbar-toggler focus:outline-none block lg:hidden">
+            <span class="
+                  toggler-icon
+                  block
+                  bg-gray-700
+                  relative
+                  duration-300
+                  h-[2px]
+                  w-[30px]
+                  my-[6px]
+                ">
+            </span>
+            <span class="
+                  toggler-icon
+                  block
+                  bg-gray-700
+                  relative
+                  duration-300
+                  h-[2px]
+                  w-[30px]
+                  my-[6px]
+                ">
+            </span>
+            <span class="
+                  toggler-icon
+                  block
+                  bg-gray-700
+                  relative
+                  duration-300
+                  h-[2px]
+                  w-[30px]
+                  my-[6px]
+                ">
+            </span>
+          </button>
+
+          <div class="
+                collapse
+                navbar-collapse
+                hidden
+                lg:block
+                duration-300
+                shadow
+                absolute
+                top-full
+                left-0
+                mt-full
+                bg-white
+                z-20
+                px-5
+                py-3
+                w-full
+                lg:static lg:bg-transparent lg:shadow-none
+              " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto justify-center items-center lg:flex">
+              <li class="nav-item">
+                <a class="page-scroll nav-link active" href="#hero-area">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll nav-link" href="#feature">feature</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll nav-link" href="#Upload">Test</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="
+                header-btn
+                hidden
+                sm:block sm:absolute sm:right-0 sm:mr-16
+                lg:static lg:mr-0
+              ">
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+  </header>
+  <!-- Header Area wrapper End -->
+
+  <!-- Hero Area Start -->
+  <section id="hero-area" class="bg-blue-100 pt-48 pb-10">
+    <div class="container px-4">
+      <div class="flex justify-between">
+        <div class="w-full text-center">
+          <h2 class="text-4xl font-bold leading-snug text-gray-700 mb-10">
+            "Instantly Assess Your Skin Health: Upload Images for Melanoma Detection with Ease!"
+          </h2>
+          <!-- <div class="text-center mb-10">
+              <form id="uploadForm" action="/classify" method="post" enctype="multipart/form-data">
+                <label for="imageUpload" id="uploadLabel" class="text-white bg-blue-600 px-10 py-3 rounded-full duration-300 hover:bg-blue-500 cursor-pointer">
+                  Upload Image
+                </label>
+                <input type="file" id="imageUpload" name="image" class="hidden" accept="image/*" onchange="displayFileName()" />
+                <button type="submit" class="text-white bg-blue-600 px-10 py-3 rounded-full duration-300 hover:bg-blue-500">
+                  Submit
+                </button>
+              </form>
+            </div> -->
+
+          <!-- <section class="section">
+              <div class="container has-text-centered bg-text" style="width: 100%">
+                      <p class="subtitle" style="color:black">
+                        Upload your JPEG to find out what the likelihood of melanoma:
+                      </p>
+                      <p><em>(Note: Any diagnosis through this app is not meant to replace the official diagnosis by a certified physician. If you receive a positive ID here, </br> you should probably get it checked out.  The earlier the better the chance of removing the entire tumor.</em></p>
+                  </br>
+                  </br>
+                    <div>
+                      <i class="arrow_down"></i>
+                      <form action="/classify" method="post" enctype="multipart/form-data" style="margin-top: 30px; width: 80%; text-align: center; margin: auto;">
+                        <div class="file has-name is-centered">
+                            <label class="file-label">
+                              <input class="file-input" type="file" id="image" name = "image">
+                              <span class="file-cta">
+{#                                <span class="file-label">#}
+{#                                  Upload an image#}
+{#                                </span>#}
+                              </span>
+{#                              <span class="file-name" id="file-name">#}
+{#                                No file chosen#}
+{#                              </span>#}
+
+                            </label>
+                          </div>
+                          <br>
+                          <input type="submit" value="SUBMIT" class="button is-black" name = "image" id="classify_button">
+                      </form>
+
+                      </div>
+                    </div>
+                  </div>
+              </div>
+      </section> -->
+
+          <script>
+            function displayFileName() {
+              const input = document.getElementById('imageUpload');
+              const label = document.getElementById('uploadLabel');
+              const fileName = input.files[0].name;
+              label.innerText = fileName;
+            }
+          </script>
+
+          <div class="text-center">
+            <img class="img-fluid mx-auto" src="/assets/img/hero.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Area End -->
+
+  <!-- Services Section Start -->
+  <!-- <section id="services" class="py-24">
+      <div class="container px-4">
+        <div class="text-center">
+          <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide">
+            Our Services
+          </h2>
+        </div>
+    </section> -->
+  <!-- Services Section End -->
+
+  <!-- Feature Section Start -->
+  <div id="feature" class="bg-blue-100 py-24">
+    <div class="container px-4">
+      <div class="flex flex-wrap items-center">
+        <div class="w-full lg:w-1/2">
+          <div class="mb-5 lg:mb-0">
+            <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide">
+              About Us
+            </h2>
+
+            <div class="flex flex-wrap">
+              <div class="w-full sm:w-1/2 lg:w-1/2">
+                <div class="m-3">
+                  <div class="icon text-4xl text-blue-600 mb-3">
+                    <i class="lni lni-layers"> </i>
+                  </div>
+                  <div class="features-content">
+                    <h4 class="text-gray-800 font-medium block mb-3">
+                      Fast Results
+                    </h4>
+                    <p>
+                      Tool quickly analyzes skin lesion images and provides predictions in under 3 seconds, helping doctors and lab staff make timely decisions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full sm:w-1/2 lg:w-1/2">
+                <div class="m-3">
+                  <div class="icon text-4xl text-blue-600 mb-3">
+                    <i class="lni lni-gift"> </i>
+                  </div>
+                  <div class="features-content">
+                    <h4 class="text-gray-800 font-medium block mb-3">
+                      Multiple Diagnoses
+                    </h4>
+                    <p>
+                      It identifies seven different types of skin lesions and offers the top three likely diagnoses, giving medical professionals a broader understanding for better patient care.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full sm:w-1/2 lg:w-1/2">
+                <div class="m-3">
+                  <div class="icon text-4xl text-blue-600 mb-3">
+                    <i class="lni lni-laptop-phone"> </i>
+                  </div>
+                  <div class="features-content">
+                    <h4 class="text-gray-800 font-medium block mb-3">
+                      Privacy Protection
+                    </h4>
+                    <p>
+                      All data processing happens locally on the user's device, ensuring patient images remain private and secure, meeting strict medical data privacy requirements.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full sm:w-1/2 lg:w-1/2">
+                <div class="m-3">
+                  <div class="icon text-4xl text-blue-600 mb-3">
+                    <i class="lni lni-leaf"> </i>
+                  </div>
+                  <div class="features-content">
+                    <h4 class="text-gray-800 font-medium block mb-3">
+                      Easy to Customize
+                    </h4>
+                    <p>
+                      Using MobileNet, a lightweight neural network, makes the tool fast and efficient, suitable for running directly in web browsers without sacrificing accuracy or speed.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2">
+          <div class="mx-3 lg:mr-0 lg:ml-3">
+            <img src="/assets/img/feature/img-1.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Feature Section End -->
+
+  <section>
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content. -->
+<div class="w3-content" style="max-width:1024px" >
+
+
+
+  <!-- 1. HOME PAGE -->
+  <div class="tabbed w3-animate-opacity w3-white" id="Upload">
+    
+    
+  <!-- Top Bar -->
+  <div class='w3-center' style="margin-top: 20px;">
+
+    <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide">
+      Upload your image 
+    </h2>
+    
+    <!-- <p class="space-letters-large w3-small w3-tag bground-color w3-text-teal w3-border w3-round">
+      <a class="change-size" href="faq.html"><b>About</b></a> -->
+  </div>
+  
+  
+  
+  
+    
+  
+  <!-- Front page image -->
+  <!-- This image will be replaced once the js code runs. -->
+  <div class="text-center">
+    <img id="selected-image" class="w3-round adjust-image mx-auto" src="/model/assets/samplepic.jpg" height="250" alt="Image for analysis"> 
+  </div>
+  
+  <!-- Add space between image and button -->
+  <div class="my-4"></div>
+
+  <!-- Button -->
+  <div id="btnn" class="w3-center"  style="margin-top: 20px;">
+    
+    <button class="w3-btn w3-deep-orange w3-hover-blue w3-round w3-margin-bottom adjust-spacing btn-font w3-padding w3-space-letters w3-text-white" onclick="setTimeout(simulateClick.bind(null, 'image-selector'), 200)"><i class='fas fa-camera w3-padding-right' style='font-size:15px'></i>
+      <b>Upload Image</b></button>
+    <!--<p class="w3-text-teal">jpeg or png</p>-->
+  </div> 
+  
+  
+  
+  <div class="w3-center">
+    <div  class="progress-bar w3-text-teal space-letters">
+    <i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+    <p>Model is loading...</p></div>
+  </div>
+  
+  <!-- Progress Bar 
+  Just here for graphics.
+  The functionality was not implemented because it slows down the model download 
+  and causes it to fail.-->
+  <!-- <div class="w3-light-grey side-margin w3-opacity">
+  <div  id="myBar" class="w3-container w3-blue" style="height:5px;width:100%"></div>
+  </div> -->
+  
+  
+  <!-- Results Box -->
+
+  <div class="w3-center  add-margin side-margin w3-round  space-letters bottom-margin dont-break-out">
+  
+    <p>Results</p>
+    
+    <!-- Remember that an ordered or unordered list has tabs by default.
+    CSS is not styling the prediction outputs. The tabs you see are the default
+    tabs associated with lists.-->
+    <ol class='w3-center-align text-color' id='prediction-list'></ol>
+      
+
+    
+  </div>
+
+  
+
+  </div><!--END OF HOME PAGE-->
+
+  
+  
+  <!-- We simulate clicks on these two. -->
+  <div class="hide">
+    <button id='predict-button'>Predict</button>
+  </div>
+  
+  <div class="hide">
+    <input id="image-selector" type="file" multiple>
+  </div>
+</section>
+  <!-- Team Section Start -->
+  <section id="team" class="py-24 text-center">
+    <div class="container px-4">
+      <div class="text-center">
+        <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide">
+          Our Team
+        </h2>
+      </div>
+      <div class="flex flex-wrap justify-center">
+        <!-- Team Item Starts -->
+        <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
+          <div class="
+                m-3
+                text-center
+                bg-white
+                shadow
+                duration-300
+                group
+                hover:shadow-lg
+              ">
+            <div class="team-img relative">
+              <img class="img-fluid" src="/assets/img/team/img1.jpg" alt="" />
+              <div class="
+                    w-full
+                    h-full
+                    flex
+                    items-center
+                    justify-center
+                    absolute
+                    top-0
+                    left-0
+                    bg-white bg-opacity-60
+                    duration-300
+                    opacity-0
+                    group-hover:opacity-100
+                  ">
+                <ul class="flex justify-center">
+                  <li class="mx-1">
+                    <a href="javascript:void(0)" class="social-link hover:bg-indigo-500">
+                      <i class="lni lni-facebook-original" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                  <li class="mx-1">
+                    <a href="javascript:void(0)" class="social-link hover:bg-blue-400">
+                      <i class="lni lni-twitter-original" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                  <li class="mx-1">
+                    <a href="javascript:void(0)" class="social-link hover:bg-red-500">
+                      <i class="lni lni-instagram-filled" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center px-5 py-3">
+              <h3 class="text-gray-800 font-bold uppercase text-lg my-2">
+                xxxxxxxxxx
+              </h3>
+              <!-- <p>UX UI Designer</p> -->
+            </div>
+          </div>
+        </div>
+        <!-- Team Item Ends -->
+        <!-- Team Item Starts -->
+        <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
+          <div class="
+                m-3
+                text-center
+                bg-white
+                shadow
+                duration-300
+                group
+                hover:shadow-lg
+              ">
+            <div class="team-img relative">
+              <img class="img-fluid" src="/assets/img/team/img2.jpg" alt="" />
+              <div class="
+                    w-full
+                    h-full
+                    flex
+                    items-center
+                    justify-center
+                    absolute
+                    top-0
+                    left-0
+                    bg-white bg-opacity-60
+                    duration-300
+                    opacity-0
+                    group-hover:opacity-100
+                  ">
+                <ul class="flex justify-center">
+                  <li class="mx-1">
+                    <a href="javascript:void(0)" class="social-link hover:bg-indigo-500">
+                      <i class="lni lni-facebook-original" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                  <li class="mx-1">
+                    <a href="javascript:void(0)" class="social-link hover:bg-blue-400">
+                      <i class="lni lni-twitter-original" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                  <li class="mx-1">
+                    <a href="javascript:void(0)" class="social-link hover:bg-red-500">
+                      <i class="lni lni-instagram-filled" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center px-5 py-3">
+              <h3 class="text-gray-800 font-bold uppercase text-lg my-2">
+                XXXXXXXXX
+              </h3>
+              <!-- <p>Front-End Developer</p> -->
+            </div>
+          </div>
+        </div>
+        <!-- Team Item Ends -->
+        <!-- Team Item Starts -->
+        <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
+          <div class="
+                m-3
+                text-center
+                bg-white
+                shadow
+                duration-300
+                group
+                hover:shadow-lg
+              ">
+            <div class="team-img relative">
+              <img class="img-fluid" src="/assets/img/team/img3.jpg" alt="" />
+              <div class="
+                    w-full
+                    h-full
+                    flex
+                    items-center
+                    justify-center
+                    absolute
+                    top-0
+                    left-0
+                    bg-white bg-opacity-60
+                    duration-300
+                    opacity-0
+                    group-hover:opacity-100
+                  ">
+                <ul class="flex justify-center">
+                  <li class="mx-1">
+                    <a href="javascript:void(0)" class="social-link hover:bg-indigo-500">
+                      <i class="lni lni-facebook-original" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                  <li class="mx-1">
+                    <a href="javascript:void(0)" class="social-link hover:bg-blue-400">
+                      <i class="lni lni-twitter-original" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                  <li class="mx-1">
+                    <a href="javascript:void(0)" class="social-link hover:bg-red-500">
+                      <i class="lni lni-instagram-filled" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center px-5 py-3">
+              <h3 class="text-gray-800 font-bold uppercase text-lg my-2">
+                xxxxxxxxxxxx
+              </h3>
+              <!-- <p>Back-end Developer</p> -->
+            </div>
+          </div>
+        </div>
+        <!-- Team Item Ends -->
+      </div>
+    </div>
+  </section>
+  <!-- Team Section End -->
+
+  <button class="chatbot-toggler">
+    <span class="material-symbols-rounded">mode_comment</span>
+    <span class="material-symbols-outlined">close</span>
+  </button>
+  <div class="chatbot">
+    <header>
+      <h2>Dermalens</h2>
+      <span class="close-btn material-symbols-outlined">close</span>
+    </header>
+    <ul class="chatbox">
+      <li class="chat incoming">
+        <span class="material-symbols-outlined">smart_toy</span>
+        <p>Hi<br>How can I help you today?</p>
+      </li>
+    </ul>
+    <div class="chat-input">
+      <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+      <span id="send-btn" class="material-symbols-rounded">send</span>
+    </div>
+  </div>
+
+
+  <!-- Contact Section Start -->
+  <section id="contact" class="py-24">
+    <div class="container px-4">
+      <div class="text-center">
+        <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide">
+          Contact
+        </h2>
+      </div>
+
+      <div class="flex flex-wrap contact-form-area">
+        <div class="w-full md:w-1/2">
+          <div class="contact">
+            <h2 class="uppercase font-bold text-xl text-gray-700 mb-5 ml-3">
+              Contact Form
+            </h2>
+            <form id="contactForm" action="#0" method="POST">
+              <div class="flex flex-wrap">
+                <div class="w-full sm:w-1/2 md:w-full lg:w-1/2">
+                  <div class="mx-3">
+                    <input type="text" class="form-input rounded-full" id="name" name="name" placeholder="Name" required
+                      data-error="Please enter your name" />
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-full lg:w-1/2">
+                  <div class="mx-3">
+                    <input type="text" placeholder="Email" id="email" class="form-input rounded-full" name="email"
+                      required data-error="Please enter your email" />
+                  </div>
+                </div>
+                <div class="w-full">
+                  <div class="mx-3">
+                    <input type="text" placeholder="Subject" id="subject" name="subject" class="form-input rounded-full"
+                      required data-error="Please enter your subject" />
+                  </div>
+                </div>
+                <div class="w-full">
+                  <div class="mx-3">
+                    <textarea class="form-input rounded-lg" id="message" name="message" placeholder="Your Message"
+                      rows="5" data-error="Write your message" required>
+                      </textarea>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <div class="submit-button mx-3">
+                    <button class="
+                          text-white
+                          bg-blue-600
+                          px-10
+                          py-3
+                          rounded-full
+                          duration-300
+                          hover:bg-blue-500
+                        " id="form-submit" type="submit">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2">
+          <div class="ml-3 md:ml-12 wow fadeIn">
+            <h2 class="uppercase font-bold text-xl text-gray-700 mb-5">
+              Get In Touch
+            </h2>
+            <div>
+              <div class="flex flex-wrap mb-6 items-center">
+                <div class="
+                      w-10
+                      h-10
+                      flex
+                      items-center
+                      justify-center
+                      bg-blue-600
+                      text-xl text-white
+                      rounded-full
+                    ">
+                  <i class="lni lni-map-marker"> </i>
+                </div>
+                <p class="pl-3">YIT,Mangalore</p>
+              </div>
+              <div class="flex flex-wrap mb-6 items-center">
+                <div class="
+                      w-10
+                      h-10
+                      flex
+                      items-center
+                      justify-center
+                      bg-blue-600
+                      text-xl text-white
+                      rounded-full
+                    ">
+                  <i class="lni lni-envelope"> </i>
+                </div>
+                <p class="pl-3">
+                  <a href="javascript:void(0)" class="block">
+                    temp@gmail.com</a>
+                  <a href="javascript:void(0)" class="block">
+                    m@gmail.com</a>
+                </p>
+              </div>
+              <div class="flex flex-wrap mb-6 items-center">
+                <div class="
+                      w-10
+                      h-10
+                      flex
+                      items-center
+                      justify-center
+                      bg-blue-600
+                      text-xl text-white
+                      rounded-full
+                    ">
+                  <i class="lni lni-phone-set"> </i>
+                </div>
+                <p class="pl-3">
+                  <a href="javascript:void(0)" class="block">+91 374 5967</a>
+                  <a href="javascript:void(0)" class="block">+91 123 5967</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+
+  <!-- Footer Section Start -->
+  <footer id="footer" class="bg-gray-800 py-16">
+    <div class="container px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+          <div class="mx-3 mb-8">
+
+            <p class="text-gray-300">
+              Instantly Assess Your Skin Health: Upload Images for Melanoma Detection with Ease!
+            </p>
+          </div>
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+          <div class="mx-3 mb-8">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+  <!-- Footer Section End -->
+
+  <section class="bg-gray-800 py-6 border-t-2 border-gray-700 border-dotted">
+    <div class="container px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full text-center">
+          <p class="text-white">
+            Designed and Developed by
+            <a class="text-white duration-300 hover:text-blue-600" href="https://tailwindtemplates.co" rel="nofollow">
+              Dermalens
+            </a>
+            <a class="text-white duration-300 hover:text-blue-600" href="https://uideck.com" rel="nofollow">
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Go to Top Link -->
+  <a href="#" class="
+        back-to-top
+        w-10
+        h-10
+        fixed
+        bottom-0
+        right-0
+        mb-5
+        mr-5
+        flex
+        items-center
+        justify-center
+        rounded-full
+        bg-blue-600
+        text-white text-lg
+        z-20
+        duration-300
+        hover:bg-blue-400
+      ">
+    <i class="lni lni-chevron-up"> </i>
+  </a>
+  <!-- Load jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+  </script>
+
+
+  <!-- Load TensorFlow.js
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.6.0/dist/tf.min.js"> 
+	</script>-->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js">
+  </script>
+
+
+  <!-- Load the js files -->
+  <script src="/model/jscript/target_classes.js"></script>
+  <script src="/model/jscript/app_startup_code.js"></script>
+  <script src="/model/jscript/app_batch_prediction_code.js"></script>
+
+  <!-- All js Here -->
+  <script src="/assets/js/main.js"></script>
+  <script src="/static/script.js"></script>
+
+</body>
+
+</html>
