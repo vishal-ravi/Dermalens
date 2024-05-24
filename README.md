@@ -1,4 +1,4 @@
-# SKIN CANCER (MELANOMA) DETECTION WEB APPLICATION USING MACHINE LEARNING
+# Dermalens
 
 This repository contains the source code and resources for a web application designed to aid in the early detection of melanoma, the most lethal form of skin cancer. Utilizing TensorFlow and Python, this project aims to deliver a user-friendly experience while maintaining high accuracy in identifying potential melanomas.
 
