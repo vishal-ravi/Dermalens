@@ -31,10 +31,12 @@ The application utilizes MobileNet, a lightweight Convolutional Neural Network (
 - A base MobileNet model
 - Additional layers for the specific task, including a dropout layer for regularization and a dense layer with softmax activation for multi-class classification
 
-#To run the Dermalens web app, you can follow these steps:
+## To run the Dermalens web app, you can follow these steps:
 
 Navigate to the templates folder in the project directory.
+
 Open index.html file.
+
 Run a local server to view the web app in your browser.
 
 ## Conclusion
